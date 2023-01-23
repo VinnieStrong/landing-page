@@ -1,0 +1,8 @@
+body {
+    
+    display:flex;
+    flex-direction: column; 
+}
+header, footer, div .p1, div .p2, div .p3, div .p4 {
+    flex:1;
+}
