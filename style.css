@@ -7,6 +7,7 @@ body {
 header, footer, .p1, .p2, .p3, .p4 {
     margin: 0;
     flex:1;
+    min-width: 500px;
 }
      
 .header {
@@ -29,6 +30,7 @@ header, footer, .p1, .p2, .p3, .p4 {
 }
 
 .p1 {
+    
     background-color: #1f2937;
     display:flex;
     padding: 80px 125px;
@@ -54,7 +56,7 @@ header, footer, .p1, .p2, .p3, .p4 {
 }
 
  .p1-button {
-    padding: 5px;
+    padding: 4px 10px;
     margin-top: 10px;
     color:#e5e7eb;
     background-color: #3882f6;
@@ -69,7 +71,10 @@ font-size: 32px;
 font-weight: 900;
 text-align: center;
  }
-    
+.p2-right
+{
+    min-width: 400;
+} 
  
 .photos {
     display: flex;
@@ -90,7 +95,7 @@ text-align: center;
  .p3 {
     display: flex;
     flex-direction: column;
-    padding:50px;
+    padding:50px 150px;
     background-color: #e5e7eb;
 
 
@@ -119,8 +124,8 @@ text-align: center;
     list-style-type: none;
 }
 .p4-button {
-    padding: 5px;
-    margin-top: 10px;
+    padding: 1px 6px;
+    margin: 10px;
     color:#e5e7eb;
     background-color: #3882f6;
     font-size: 22px;
